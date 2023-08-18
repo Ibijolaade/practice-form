@@ -7,3 +7,15 @@
 .hobby span{
     display: block;
 }
+.publictrans{
+    border: 1px solid black;
+    padding: 4px;
+    margin: 8px;
+    width: 160px;
+}
+.publictrans span{
+    display: block;
+}
+.letter{
+    font-weight: bold;
+}
