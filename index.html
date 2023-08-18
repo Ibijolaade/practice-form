@@ -48,8 +48,15 @@
                            
                 <fieldset>
                     <legend>Intrests</legend>
-                    <label for="hobbies">Hobbies</label>
-                    <textarea name="hobbies" id="hobbies" cols="20" rows="5"></textarea><br>
+                    <div style="display: inline-flex;">
+                        <label for="hobbies">Hobbies</label>
+                        <div class="hobby">
+                            <span>Playing soccer</span>
+                            <span>Dancing</span>
+                            <span>Gardening</span>
+                            <span>Watching movies</span>
+                        </div>
+                    </div>
                     <br>
                     <label for="Cars">Favourite car?</label>
                     <select name="Favourite car?" id="Cars" >
@@ -59,9 +66,15 @@
                         <option value="Mikano car">Mikano car</option>
                     </select><br>
                     <br>
-                    <label for="Public trans">Favourite public transport?
-                     <input type="text" id="Public trans" name="Favourite public transport?">
-                    </label>
+                    <div>
+                     <label for="Public trans">Favourite public transport?</label>
+                       <div>
+                            <span>Ground</span>
+                            <span>Train</span>
+                            <span>Bus</span>
+                            <span>Water</span>
+                    </div>
+                   </div>
                     </select>
                 </fieldset>
             </form>
