@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Form</title>
 </head>
 <body>
     <header>
@@ -29,15 +30,43 @@
                 <fieldset>
                     <legend>Additional details</legend>
                     <div>
-                        <label for="bio">Biography
-                            <textarea name="Biography" id="bio"></textarea>
-                        </label>
-                       
-                        
+                        <label for="bio">Biography</label>
+                          <textarea name="Biography" id="bio"></textarea><br>
+                          <br>
+                        <label for="img">Image</label>
+                        <input type="file" id="img" name="Image" ><br>
+                        <br>
+                        <label for="age">Age Group</label>
+                        <select name="Age Group" id="age" >
+                            <option  value="0 to 9years">0 to 9years</option>
+                            <option  value="10 to 19years">10 to 19years</option>
+                            <option  value="20 to 29years">20 to 29years</option>
+                            <option  value="30 to 39years">30 to 39years</option>
+                        </select>   
                     </div>
+                </fieldset>
+                           
+                <fieldset>
+                    <legend>Intrests</legend>
+                    <label for="hobbies">Hobbies</label>
+                    <textarea name="hobbies" id="hobbies" cols="20" rows="5"></textarea><br>
+                    <br>
+                    <label for="Cars">Favourite car?</label>
+                    <select name="Favourite car?" id="Cars" >
+                        <option value="Volvo">Volvo</option>
+                        <option value="Ferari">Ferari</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Mikano car">Mikano car</option>
+                    </select><br>
+                    <br>
+                    <label for="Public trans">Favourite public transport?
+                     <input type="text" id="Public trans" name="Favourite public transport?">
+                    </label>
+                    </select>
                 </fieldset>
             </form>
         </main>
     </header>
+    <a href="table.html">Table page</a>
 </body>
 </html>
