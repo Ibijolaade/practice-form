@@ -12,70 +12,80 @@
             <form action="./formsuccess.html">
                 <fieldset>
                     <legend>Your address:</legend>
-                     <div>
-                     <label for="fname">First name</label>
-                     <input type="text" id="fname" name="First name"><br>
-                     <br>
-                     <label for="lname">Last name</label>
-                     <input type="text" id="lname" name="Last name"><br>
-                     <br>
-                     <label for="street">Street</label>
-                     <input type="text" id="street" name="Street"><br>
-                     <br>
-                     <label for="city">City</label>
-                     <input type="text" id="city" name="City">
+                    <div class="overall">
+                        <span class="box">
+                            <label for="fname">First name</label>
+                            <input type="text" id="fname" name="First name">
+                       </span>  
+                       <span class="box">
+                            <label for="lname">Last name</label>
+                            <input type="text" id="lname" name="Last name">
+                       </span> 
+                       <span class="box">
+                            <label for="street">Street</label>
+                            <input type="text" id="street" name="Street">
+                       </span> 
+                        <span class="box">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="City">
+                        </span>
                     </div>
                 </fieldset>
 
                 <fieldset>
                     <legend>Additional details</legend>
-                    <div>
-                        <label for="bio">Biography</label>
-                          <textarea name="Biography" id="bio"></textarea><br>
-                          <br>
-                        <label for="img">Image</label>
-                        <input type="file" id="img" name="Image" ><br>
-                        <br>
-                        <label for="age">Age Group</label>
-                        <select name="Age Group" id="age" >
-                            <option  value="0 to 9years">0 to 9years</option>
-                            <option  value="10 to 19years">10 to 19years</option>
-                            <option  value="20 to 29years">20 to 29years</option>
-                            <option  value="30 to 39years">30 to 39years</option>
-                        </select>   
+                    <div class="overall">
+                        <span class="box">
+                            <label for="bio">Biography</label>
+                            <textarea name="Biography" id="bio"></textarea>
+                        </span>
+                       <span class="box">
+                            <label for="img">Image</label>
+                            <input type="file" id="img" name="Image" >
+                       </span>
+                       <span class="box">
+                            <label for="age">Age Group</label>
+                            <select name="Age Group" id="age" >
+                                <option  value="0 to 9years">0 to 9years</option>
+                                <option  value="10 to 19years">10 to 19years</option>
+                                <option  value="20 to 29years">20 to 29years</option>
+                                <option  value="30 to 39years">30 to 39years</option>
+                            </select>  
+                      </span> 
                     </div>
                 </fieldset>
                            
                 <fieldset>
                     <legend>Intrests</legend>
-                    <div style="display: inline-flex;">
-                        <label for="hobbies">Hobbies</label>
-                        <div class="hobby">
-                            <span>Playing soccer</span>
-                            <span>Dancing</span>
-                            <span>Gardening</span>
-                            <span>Watching movies</span>
+                    <div class="overall">
+                        <div style="display: inline-flex;">
+                            <label for="hobbies">Hobbies</label>
+                            <div class="hobby">
+                                <span>Playing soccer</span>
+                                <span>Dancing</span>
+                                <span>Gardening</span>
+                                <span>Watching movies</span>
+                            </div>
                         </div>
-                    </div>
-                    <br>
-                    <label for="Cars">Favourite car?</label>
-                    <select name="Favourite car?" id="Cars" >
-                        <option value="Volvo">Volvo</option>
-                        <option value="Ferari">Ferari</option>
-                        <option value="BMW">BMW</option>
-                        <option value="Mikano car">Mikano car</option>
-                    </select><br>
-                    <br>
-                    <div style="display: inline-flex;">
-                     <label for="Public trans">Favourite public transport?</label>
-                       <div class="publictrans">
-                            <span class="letter">Ground</span>
-                            <span>Train</span>
-                            <span>Bus</span>
-                            <span class="letter">Water</span>
-                    </div>
+                        <span class="box">
+                            <label for="Cars">Favourite car?</label>
+                            <select name="Favourite car?" id="Cars" >
+                                <option value="Volvo">Volvo</option>
+                                <option value="Ferari">Ferari</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Mikano car">Mikano car</option>
+                            </select>
+                        </span>
+                        <div style="display: inline-flex;">
+                            <label for="Public trans">Favourite public transport?</label>
+                            <div class="publictrans">
+                              <span class="letter">Ground</span>
+                              <span>Train</span>
+                              <span>Bus</span>
+                              <span class="letter">Water</span>
+                            </div>
+                       </div>
                    </div>
-                    </select>
                 </fieldset>
             </form>
         </main>

@@ -19,3 +19,15 @@
 .letter{
     font-weight: bold;
 }
+label { 
+    width: 120px;
+ }
+ .box{
+    display: inline-flex;
+    margin-bottom: 5px;
+    
+ }
+ .overall{
+    display: flex;
+    flex-flow: column;
+ }
