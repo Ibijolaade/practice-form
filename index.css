@@ -1,25 +1,25 @@
-.hobby{
+ .hobby{
     border: 1px solid black;
     padding: 4px;
     margin: 8px;
     width: 160px;
-}
-.hobby span{
+ }
+ .hobby span{
     display: block;
-}
-.publictrans{
+ }
+ .publictrans{
     border: 1px solid black;
     padding: 4px;
     margin: 8px;
     width: 160px;
-}
-.publictrans span{
+ }
+ .publictrans span{
     display: block;
-}
-.letter{
+ }
+ .letter{
     font-weight: bold;
-}
-label { 
+ }
+ label { 
     width: 120px;
  }
  .box{
